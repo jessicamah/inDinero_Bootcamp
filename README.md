@@ -1,66 +1,123 @@
-Requirements
+# Requirements
 
 ------------------------------
 
-Basic:
+## Basic:
 
-Datastructures - Lists, Hashtables, Sets, Trees, Arrays, OOP
-Discrete Mathematics - Induction, Proofs, Logic
-Algorithms - Running Time, Sorting
-Machine Structures - Pointers, Virtual Memory, Assembly
-Database - mySQL, joins, group
+Datastructures - 
+* Lists, 
+* Hashtables
+* Sets
+* Trees (Balance Tree/Binary Tree)
+* Arrays
+* Pointers
 
-Java, C++
-Unix usage, Dynamic Languages (Python, Ruby, etc)
+OOP
+
+Discrete Mathematics - 
+* Induction
+* Proofs
+* Logic
+
+Algorithms - 
+* Running Time
+* Sorting
+
+Machine Structures -
+* Pointers
+* Virtual Memory
+* Assembly
+* 
+Database - 
+* mySQL 
+* joins
+* group
+
+Languages -
+* Java
+* C++
+
+Unix usage
+
+Dynamic Languages (Python, Ruby, etc)
 
 
-Advanced:
-Compilers - AST, Grammar, Syntax & Parsing, Automata, Regex
-Operating Systems - CPU, Virtual Memory, Concurrency, Parallel Programming
-Artificial Intelligence - Q learning, Searching, A*
-Algorithms - Dynamic Programming, TSP & NP Complete problems
-Web Programming - javascript & jQuery, MVC
-Mobile Dev - ios, Andriod
+## Advanced:
+Compilers - 
+* AST
+* Grammar
+* Syntax & Parsing
+* Automata
+* Regex
+
+Operating Systems - 
+* CPU
+* Virtual Memory
+* Concurrency
+* Parallel Programming
+
+Artificial Intelligence - 
+* Q learning
+* Searching
+* A*
+
+Algorithms - 
+* Dynamic Programming
+* TSP & NP Complete problems
+
+Web Programming - 
+*javascript & jQuery
+
+MVC
+Mobile Dev - 
+* ios
+* Andriod
 
 Git versioning control
 
 ------------------------------
 
-Intro (1 week)
+# Intro (1 week)
 
+terminal & unix & mac
 
+datastructures
 discrete math
-git version control
+
+## Ruby (1 week) - Outsync
+
+* methods
+* string manipulation
+* OOP - class, accessors, methods
+* instance, class, global variables
+* looping
+* blocks
+* fileIO
+* metaprogramming
+* regex
+* scope
+* mini::test
+
+
+
+
+## git version control
 algorithms - O(n), O(n^2), O(nlogn), O(2^n)
 
 
-datastructures
-terminal & unix
+
 sql - databases
 
 
-ruby (1 week) - Outsync
-
-methods
-string manipulation
-OOP - class, accessors, methods
-instance, class, global variables
-looping
-blocks
-fileIO
-metaprogramming
-regex
-scope
-
 
 Rails (1 week) - Spice Boys, Outsync
-
 MVC
 models - ORM
 controller - routes
 views - javascript, jQuery, html, css
 Authentication
 CRUD
+Rspec
 
 
 Javascript (1 week) - Spice Boys
