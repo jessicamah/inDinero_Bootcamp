@@ -1,0 +1,21 @@
+#inDinero Bootcamp
+
+##Welcome
+
+Welcome to the inDinero Bootcamp.
+
+This bootcamp is intended to train prospective students, interns, junior developers and remain as an active resource for the core team.
+
+The bootcamp will cover all topics required for a Full Stack Web Developer at inDinero. If you complete the course properly, you should be able to build a scalable web product and have the skills to maintain it.
+
+##Curriculum
+
+* Intro - Setup, Unix, datastructure and algorithms review, git
+* Ruby - Basics, Network IO, blocks, scope, metaprogramming, regex
+* Rails - MVC, ORM, routes, html, CSS, CRUD
+* Javascript - scopes, jQuery, backbone
+* Tests & process - Rspec, cucumber, scrums
+* Server Ops - deployment, capistrano
+* Projects
+
+

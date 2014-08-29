@@ -1,0 +1,11 @@
+#Setup and Intro
+
+###Setup
+Google for "Install Ruby". Follow the appropriate links and install ruby via rbenv or RVM. The ruby version to install should be at least 1.9.3.
+
+###Setup Snafus
+
+You must have a C compiler installed. On macOS, install xcode and command line tools via xcode.
+
+Avoid using 'sudo' during your installation.
+

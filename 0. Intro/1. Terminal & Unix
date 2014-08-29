@@ -1,0 +1,63 @@
+#Terminal & Unix
+###Intro
+Terminal is a command line console used to interact with the computer system. Unix is the command language that most terminals understand.
+
+###Setup
+* Mac - cmd+space; type terminal in the mac search bar
+* Ubuntu - http://askubuntu.com/questions/183775/how-do-i-open-a-terminal
+* Windows - Try Cygwin, Putty, PowerShell
+
+
+###Memorize
+Common unix commands must be memorized. As you use unix more and more, you will memorize them naturally.
+
+Fun list:
+http://www.tjhsst.edu/~dhyatt/superap/unixcmd.html
+
+###Common Commands
+The test will cover the following commands. You must remember the inputs (arguments) and be able to understand the output.
+
+```
+ls
+ls -la
+cd
+mkdir
+rmdir
+cp
+rm
+rm -rf
+mv
+grep
+chmod
+chown
+chown -R
+passwd
+ps
+ps -elf
+top
+htop
+kill
+kill -9
+export
+alias
+ping
+tar <options>
+gzip <options>
+ssh <options>
+curl <options>
+wget <options>
+```
+
+###Installation Commands
+
+You must understand how to build packages using unix. 
+
+```
+configure
+make
+make install
+brew
+apt-get (or other linix equivalent)
+```
+
+
