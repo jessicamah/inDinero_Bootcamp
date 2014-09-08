@@ -146,3 +146,8 @@ rolecall - jQuery & APIs (2 weeks) - Stephen
 
 music player - html 5 (3 weeks) - Maynard
 ...
+
+
+Note: 
+
+ Structure off: https://github.com/appacademy/prep-work
