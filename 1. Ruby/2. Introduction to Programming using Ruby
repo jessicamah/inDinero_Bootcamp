@@ -3,7 +3,7 @@ Basic Programming Knowledge - Maynard
 
 Ruby Introduction - Team Outsync   
   - Data structures (Arrays, FixNums, Enums, etc)
-  - Instance
+  - Instance, Class and Global Variables + Variable scoping
   - Loops and escaping them
   - Conditionals
   - Methods in Ruby
