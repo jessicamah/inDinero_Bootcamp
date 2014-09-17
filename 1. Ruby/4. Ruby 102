@@ -1,10 +1,10 @@
 Advanced Ruby concepts
 
- - fileIO
- - metaprogramming
- - regex
- - scopes
- - mini::test
- - threading/concurrency
+ - FileIO
+ - Metaprogramming
+ - RegEx
+ - Mini::Test
+ - Threading/concurrency
+ - Authoring Gems
  
 By: Team Outsync
