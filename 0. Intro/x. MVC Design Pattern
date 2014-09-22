@@ -1,0 +1,32 @@
+Topic:      MVC Design Pattern
+Duration:   2 hours
+Objective:  Brief Introduction to the MVC Design Pattern
+
+Lesson Content:
+Part 1: MVC in a nutshell
+  * Classic wikipedia description of MVC
+  * Show the MVC picture
+Part 2: Understanding why models are Hot
+  * Classic Description of Models
+  * Brief Intro to ORMs
+  * Importance of ORMs & Models
+Part 3: Meet the Control Freak: Controller
+  * Classic Description of Controllers
+  * Routing?
+  * Controllers vs Models
+  * What a controller should be
+Part 4: Seeing things in perspective: Views
+  * Classic Description of Views
+  * Importance of this layer
+  * Demo~ :
+    * Same model, different Views
+Part 5: The Big Picture: Put everything together
+  * Revisit the MVC picture in part 1
+  * ???
+  * Validate the assumptions we made
+  * Demo~ :
+    * Show how it all fits 
+    * Show a web application
+    * Show which parts are views
+    * Show the console to display calls to the controller and models
+Part 6: Q & A
