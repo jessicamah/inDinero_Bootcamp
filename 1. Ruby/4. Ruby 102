@@ -78,8 +78,6 @@ file = File.open('myfile.txt', 'a+')
 
 
 
-
-
  - Metaprogramming
     - Samuel
 
