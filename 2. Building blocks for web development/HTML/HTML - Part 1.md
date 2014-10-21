@@ -1,5 +1,3 @@
-## HTML and CSS
-
 ### Getting Started
 HTML files are nothing more than simple text files, so to start writing in HTML, you need nothing more than a simple text editor.
 If you are using Windows you can use Notepad, which is usually found in the start menu under Programs in Accessories. In this lesson, we are going to use sublime.
@@ -245,28 +243,20 @@ The correct use for tables is to do exactly what you would expect a table to do 
 Syntax:
 ```html
 <table>
-  <thead>
-    <tr>
-      <td> Row 1 Cell 1</td>
-      <td> Row 1 Cell 2</td>
-      <td> Row 1 Cell 3</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> Row 2 Cell 1</td>
-      <td> Row 2 Cell 2</td>
-      <td> Row 2 Cell 3</td>
-    </tr>
-  </tbody>
+  <tr>
+    <td> Row 1 Cell 1</td>
+    <td> Row 1 Cell 2</td>
+    <td> Row 1 Cell 3</td>
+  </tr>
+  <tr>
+    <td> Row 2 Cell 1</td>
+    <td> Row 2 Cell 2</td>
+    <td> Row 2 Cell 3</td>
+  </tr>
 </table>
 ```
 
 The `<table>` elememt defines the table.
-
-The `<thead>` element structures the heading in your table.
-
-The `<tbody>` element structures all of the content in your table.
 
 The `<tr>` element defines the table row.
 
@@ -368,13 +358,13 @@ A form element that can be represented as a text box, password text box, check b
   <!-- This is a comment, by the way -->
 </head>
 <body>
- <h1>My first web page</h1>
+  <h1>My first web page</h1>
 
- <h2>What this is</h2>
- <p>A simple page put together using HTML. <em>I said a simple page put together using HTML.</em> A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML.</p>
- 
- <h2>Why this is</h2>
- <ul>
+  <h2>What this is</h2>
+  <p>A simple page put together using HTML. <em>I said a simple page put together using HTML.</em> A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML.</p>
+
+  <h2>Why this is</h2>
+  <ul>
   <li>To learn HTML</li>
   <li>
    To show off
@@ -386,52 +376,48 @@ A form element that can be represented as a text box, password text box, check b
    </ol>
   </li>
   <li>Because I have fallen in love with my computer and want to give her some HTML loving.</li>
- </ul>
- 
- <h2>Where to find the tutorial</h2>
- <p><a href="http://www.htmldog.com"><img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog"></a></p>
- 
- <h3>Some random table</h3>
- <table>
-  <thead>
-    <tr>
-      <td> Row 1 Cell 1</td>
-      <td> Row 1 Cell 2</td>
-      <td> Row 1 Cell 3</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> Row 2 Cell 1</td>
-      <td> Row 2 Cell 2</td>
-      <td> Row 2 Cell 3</td>
-    </tr>
-  </tbody>
-</table>
- 
- <h3>Some random form</h3>
- <p><strong>Note:</strong> It looks the part, but won't do a damned thing.</p>
- 
- <form action="somescript.html" method="post">
- 
- <p>Name:</p>
- <p><input name="name" value="Your name"></p>
- 
- <p>Comments: </p>
- <p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
- 
- <p>Are you:</p>
- <p><input type="radio" name="areyou" value="male"> Male</p>
- <p><input type="radio" name="areyou" value="female"> Female</p>
- 
- <p>Country:</p>
- <p><select>
+  </ul>
+
+  <h2>Where to find the tutorial</h2>
+  <p><a href="http://www.htmldog.com"><img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog"></a></p>
+
+  <h3>Some random table</h3>
+  <table>
+  <tr>
+    <td> Row 1 Cell 1</td>
+    <td> Row 1 Cell 2</td>
+    <td> Row 1 Cell 3</td>
+  </tr>
+  <tr>
+    <td> Row 2 Cell 1</td>
+    <td> Row 2 Cell 2</td>
+    <td> Row 2 Cell 3</td>
+  </tr>
+  </table>
+
+  <h3>Some random form</h3>
+  <p><strong>Note:</strong> It looks the part, but won't do a damned thing.</p>
+
+  <form action="somescript.html" method="post">
+
+  <p>Name:</p>
+  <p><input name="name" value="Your name"></p>
+
+  <p>Comments: </p>
+  <p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
+
+  <p>Are you:</p>
+  <p><input type="radio" name="areyou" value="male"> Male</p>
+  <p><input type="radio" name="areyou" value="female"> Female</p>
+
+  <p>Country:</p>
+  <p><select>
   <option>Canada</option>
   <option selected>US</option>
   <option>Japan</option>
- </select></p>
- <p><input type="submit"></p>
- </form>
+  </select></p>
+  <p><input type="submit"></p>
+  </form>
 </body>
 </html>
 ```
