@@ -35,9 +35,9 @@ The name attribute can be anything you like. The most commonly used names are au
 #### HTTP Equivalents
 The http-equiv attribute can be used instead of the name attribute and will make an HTTP header, which is information sent to the server where the web page is held. The attribute should rarely be used (although see charset note, below) but the value can be:
 
-*`content-type`, an encoding declaration, defining what character set is being used,
-*`default-style`, the preferred stylesheet from a selection of link or style elements,
-*`refresh`, which defines how often (in seconds) a page automatically refreshes or if it should automatically redirect to another page. Not great for accessibility.
+* `content-type`, an encoding declaration, defining what character set is being used,
+* `default-style`, the preferred stylesheet from a selection of link or style elements,
+* `refresh`, which defines how often (in seconds) a page automatically refreshes or if it should automatically redirect to another page. Not great for accessibility.
 
 The charset attribute can be used as a shorthand method to define an HTML document’s character set, which is always a good thing to do.
 `<meta charset="utf-8">` is the same as `<meta http-equiv="content-type" content="text/html; charset=utf-8">`.
