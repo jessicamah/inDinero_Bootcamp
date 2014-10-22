@@ -1,0 +1,107 @@
+Active Record Basics
+
+## In this chapter, we will take you through the basics of a database to help you bend it to your will using ActiveRecord
+
+### What is Relational Database?
+A relational database is a collection of data items organized as a set of formally-described tables from which data can be accessed or reassembled in many different ways without having to reorganize the database tables.
+
+### What is Active Record?
+Active Record is the M in MVC - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database.
+
+## Getting Started with Active Record Models
+### Creating Active Record Models
+
+It is very easy to create Active Record models. All you have to do is to subclass the ActiveRecord::Base class and you're good to go:
+
+Example script:
+```ruby
+class Product < ActiveRecord::Base
+end
+```
+or you can just create from the console using the script `rails g model model_name`. Using this script would also generate a migration file which would be discuss later but for now, suppose that products table was already created using an SQL sentence like:
+
+```sql
+CREATE TABLE products (
+   id int(11) NOT NULL auto_increment,
+   name varchar(255),
+   description varchar(255),
+   PRIMARY KEY  (id)
+);
+```
+
+As of now, we have created our `Product` model, mapped to a products table at the database with a field name.
+
+## CRUD: Reading and Writing Data
+CRUD is an acronym for the four verbs we use to operate on data: Create, Read, Update and Delete. Active Record automatically creates methods to allow an application to read and manipulate data stored within its tables.
+
+### C - Create
+
+Active Record objects can be created from a hash, a block or have their attributes manually set after creation. The new method will return a new object while create will return the object and save it to the database.
+
+In our first example, given our model `Product` with attributes name and description, we will use the `create` method which will create and save a new record into the database automatically:
+
+```ruby
+product = Product.create(name:"Phil's Best Juice", description:"made from Philippine Carabao Mangoes")
+```
+In our next example, again given our model `Product`, we will use the `new` by which an object will be instantiated without being saved:
+
+```ruby
+product = Product.new
+product.name = "Earl Grey Tea"
+product.description = "Full Leaf Black Tea"
+```  
+
+A call to `product.save` will commit the record to the database.
+
+### R - Read
+
+Active Record provides a rich API for accessing data within a database. Below are a few examples of different data access methods provided by Active Record.
+
+```ruby
+# return a collection of all products
+products = Product.all
+```
+
+```ruby
+# returns the first product found
+product = Product.first
+```
+
+```ruby
+# returns the first product named Earl Grey Tea
+product = Product.find_by(name: "Earl Grey Tea")
+```
+
+```ruby
+# find all products named Phil's Best Juice 
+product = Product.where(name: "Phil's Best Juice")
+```
+
+### U - Update
+
+Once an Active Record object has been retrieved, its attributes can be modified and it can be saved to the database
+
+```ruby
+product = Product.first
+product.name = "New and Improve Phil's Best Juice"
+product.save
+```
+A shortcut for this is to use a hash mapping attribute using `update` method
+
+```ruby
+product = Product.first
+product.update(name:"New Phil's Best Mango Juice")
+```
+Updating several attributes at once
+```ruby
+Product.update_all(description: "High Quality Philippine Products")
+```
+
+### D - Delete
+
+Likewise, once retrieved an Active Record object can be destroyed which removes it from the database,
+
+```ruby
+product = Product.first
+product.destroy
+```
