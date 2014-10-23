@@ -42,7 +42,7 @@ Embedded, or internal, styles are used for the whole page. Inside the *head* ele
 </html>
 ```
 This will make all of the paragraphs in the page red and all of the links blue.
-Although preferable to soiling our HTML with inline presentation, it is similarly usually preferable to keep the HTML and the CSS files separate, and so we are left with our savio
+Although preferable to soiling our HTML with inline presentation, it is similarly usually preferable to keep the HTML and the CSS files separate, and so we are left with our savior.
 
 ### External
 External styles are used for the whole, multiple-page website. There is a separate CSS file, which will simply look something like:
@@ -72,7 +72,7 @@ For each selector there are **properties** inside curly brackets, which simply t
 
 A **value** is given to the property following a **colon** (NOT an "equals" sign) and **semi-colons** separate the properties.
 
-```
+```css
 body {
   font-size: 14px;
   color: navy;
