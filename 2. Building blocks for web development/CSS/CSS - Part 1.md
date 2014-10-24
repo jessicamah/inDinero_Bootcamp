@@ -19,7 +19,7 @@ But, if you remember, the best-practice approach is that the HTML should be a st
 ### Internal
 Embedded, or internal, styles are used for the whole page. Inside the *head* element, the **style** tags surround all of the styles for the page.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,7 +47,7 @@ Although preferable to soiling our HTML with inline presentation, it is similarl
 ### External
 External styles are used for the whole, multiple-page website. There is a separate CSS file, which will simply look something like:
 
-```
+```css
 p {
   color: red;
 }
@@ -58,7 +58,7 @@ a {
 ```
 If this file is saved as **style.css** in the same directory as your HTML page then it can be linked to in the HTML like this:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
