@@ -1,0 +1,29 @@
+Implement an image carousel from scratch.
+=========
+
+An image carousel is a plugin that helps you display multiple images at once and gives you the ability to navigate so you can view the larger version of the image.
+
+Example:
+
+http://owlgraphic.com/owlcarousel/demos/images.html
+
+Requirements:
+
+*  The only allowed plugins are jQuery and underscore.
+
+### Speclist
+
+The image carousel should:
+*  Display at least 5 thumbnails (when there are 10 images, display the first 5 then adjust accordingly as you move through the carousel).
+*  Have one image (by default the first one) as active and displayed in full view
+*  Have navigation buttons that you can press to move through images in the carousel
+*  Have the carousel respond to the left and right arrow keys
+*  Auto transition to the next image (in 30 seconds by default)
+*  When the carousel reaches the last image, it should go back to the first one.
+*  Make this a $.function that accepts default parameters like
+  * transitions, can be set to any number in seconds or turned off completely
+  * bind the navigation to any alphabet key in the keyboard
+
+
+Bonus points: implementing lazy load on the images :D
+https://en.wikipedia.org/wiki/Lazy_loading
